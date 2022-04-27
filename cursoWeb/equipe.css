@@ -1,0 +1,38 @@
+/***********MAIN***********/
+.divImagensMaior{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 3em;
+}
+
+
+.imgPessoas{
+	border-radius: 50%;
+}
+
+
+.pTextos{
+	font-size: 20px;
+}
+
+.pPessoas{
+	font-size: 28px;
+}
+
+.titulo2CompApli{
+	padding-bottom: 1em;
+}
+
+
+
+@media only screen and (max-device-width:900px){
+	.divImagensMaior{
+		flex-direction: column;
+	}
+
+	.imgPessoas{
+		height: 400px;
+		width: 440px;
+	}
+
+}

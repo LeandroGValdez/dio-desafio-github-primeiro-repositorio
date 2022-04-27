@@ -1,0 +1,41 @@
+.botaoCursos{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: orange;
+	background: blueviolet;
+	padding: 0.3em 3em;
+	border: none;
+	box-shadow: 0 5px #9999;
+	border-radius: 15px;
+
+}
+
+.botaoCursos:hover{
+	background: black;
+	color:white;
+}
+
+.divImagensMaior{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.divImagensMenor{
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 20%;
+	padding: 1em;
+}
+
+.imgCursos{
+	border-radius: 20%;
+
+}
+
+.linkCursos{
+	font-size: 1.5em;
+	text-decoration: none;
+}

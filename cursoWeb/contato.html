@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title> Curso Web IFSP </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="cabecalho.css">
+		<link rel="stylesheet" type="text/css" href="rodape.css">
+		<link rel="stylesheet" type="text/css" href="principal.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="contato.css">
+		<script src="contato.js"></script>
+	</head>
+
+
+	<body>
+		<header class="cabecalho">
+			<img src="img/logo-If.jpg" alt = "Logo da equipe que desenvolveu o curso no IFSP, escola responsável pelo curso.">
+
+			<nav class="navMenu">
+			<ul>
+				<li class="itemMenu"><a class="linkMenu" href="index.html">Home</a></li>
+
+				<li class="itemMenu"><a class="linkMenu" href="equipe.html">Equipe</a></li>
+				<li class="itemMenu"><a class="linkMenu" href="cursos.html">Cursos</a></li>
+				<li class="itemMenu"><a class="linkMenu" href="contato.html">Contato</a></li>
+			</ul>
+			</nav>
+		</header>
+
+
+		
+
+
+
+
+		<!--Inicio da parte principal do nosso site-->
+		<main class="principal">
+			<h1>Entre em contato conosco</h1>
+			<form class="formDiv">
+
+				<div class="marginBottomElementos">
+					<label>Nome completo:</label>
+					<input id="nomeCompletoId" type="text" name="nomeCompleto">
+				</div>
+
+				<div class="marginBottomElementos">
+					<label>E-mail:</label>
+					<input id="emailId" type="email" name="emailUsuario">
+				</div>
+
+				<div class="marginBottomElementos">
+					<label>Whatsapp:</label>
+					<input id="WhatsappId" type="tel" name="telUsuario">
+				</div>
+
+				<div class="marginBottomElementos">
+					<label>Deixe uma mensagem:</label>
+					<textarea></textarea>
+				</div>
+
+				<div class="marginBottomElementos">
+					<input type="submit" onclick="MostrarInformacoes();" value="Enviar" />
+				</div>
+			</form>
+		</main>
+
+
+
+		<footer class="rodape">
+			<p class="pRodape1">Equipe Computação Aplicada IFSP-SRT</p>
+			<p>©Copyright IFSP Câmpus Sertãozinho</p>
+		</footer>
+	</body>
+</html>

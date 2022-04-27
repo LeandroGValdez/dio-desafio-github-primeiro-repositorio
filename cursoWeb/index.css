@@ -1,0 +1,10 @@
+/***********MAIN***********/
+.divMapaVideo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.marginBottomElementos{
+	margin-bottom: 1.2em;
+}

@@ -1,0 +1,41 @@
+/***********HEADER***********/
+.cabecalho{
+	background: #1A1A1A;
+	display: flex;
+	justify-content: space-between;
+	padding:1em;
+	padding-left: 2em;
+}
+
+.navMenu{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.itemMenu{
+	display:inline;
+}
+
+.linkMenu{
+	color:orange;
+	font-size: 2em;
+	font-weight: bold;
+	margin:0.5em;
+	text-decoration: none;
+}
+
+/*animação dos links do menu de navegação*/
+.linkMenu:hover{
+	color:white;
+}
+
+@media only screen and (max-device-width:900px){
+	.linkMenu{
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-device-width:600px){
+	.linkMenu{
+		font-size: 4em;
+	}
